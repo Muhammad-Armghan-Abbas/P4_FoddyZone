@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./components/SearchResults/SearchResult";
-export const BASE_URL = "hhttps://foody-zone-api-server.vercel.app";
+export const BASE_URL = "https://foody-zone-api-server.vercel.app";
 
 const App = () => {
   const [data, setData] = useState(null);
